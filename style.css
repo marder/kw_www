@@ -87,3 +87,37 @@ footer {
     color: #4a4a4a;
     opacity: 0.8;
 }
+
+@media (max-width: 576px) {
+    body {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .form-label {
+        font-size: 20px;
+    }
+
+    .form-control {
+        font-size: 20px;
+        padding: 14px;
+    }
+
+    #result {
+        font-size: 26px;
+    }
+
+    footer {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+}
+
+.col-12,
+.col-md-6 {
+    width: 100%;
+}
